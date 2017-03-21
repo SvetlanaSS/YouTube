@@ -2,8 +2,6 @@
 
 ### Svetlana Slyusareva, FEND16, kurs Javascript 2
 
-Alt-H1
-
 ##### Länk till projektet live
 
 ##### Kort beskrivning av applikationen, dess syfte och funktionalitet
