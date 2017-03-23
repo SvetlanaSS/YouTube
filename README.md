@@ -7,6 +7,12 @@
 ##### Kort beskrivning av applikationen, dess syfte och funktionalitet
 
 ##### Punktlista med vilka teknologier jag använt
+* HTML
+* JavaScript
+* AJAX
+* CSS
+* Bootstrap
+
 
 ##### Kort beskrivning av det API/APIer jag använt samt länk till dem
 
