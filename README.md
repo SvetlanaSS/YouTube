@@ -12,6 +12,7 @@
 * AJAX
 * CSS
 * Bootstrap
+* jQuery
 
 
 ##### Kort beskrivning av det API/APIer jag använt samt länk till dem

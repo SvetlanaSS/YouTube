@@ -1,0 +1,103 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/_Z-IL1p8VahHOl8zuGKhs5P_wzw\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/h6PDoF_FkzzawoClX8r-SJ9ijuY\"",
+   "id": "UCdyTmTQTyGA2I7mMBODzqig",
+   "snippet": {
+    "title": "Janni Deler",
+    "description": "Janni Delér, blogger from Stockholm, Sweden living in Monaco. Love to travel and see the world, also have a huge interest in fashion, training and food!",
+    "customUrl": "jannideler",
+    "publishedAt": "2013-09-12T18:36:31.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/-IC6K03zlONI/AAAAAAAAAAI/AAAAAAAAAAA/I89LtNXVCY4/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/-IC6K03zlONI/AAAAAAAAAAI/AAAAAAAAAAA/I89LtNXVCY4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/-IC6K03zlONI/AAAAAAAAAAI/AAAAAAAAAAA/I89LtNXVCY4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     }
+    },
+    "localized": {
+     "title": "Janni Deler",
+     "description": "Janni Delér, blogger from Stockholm, Sweden living in Monaco. Love to travel and see the world, also have a huge interest in fashion, training and food!"
+    }
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUdyTmTQTyGA2I7mMBODzqig",
+     "watchHistory": "HL",
+     "watchLater": "WL"
+    }
+   },
+   "statistics": {
+    "viewCount": "11966191",
+    "commentCount": "0",
+    "subscriberCount": "189230",
+    "hiddenSubscriberCount": false,
+    "videoCount": "78"
+   },
+   "topicDetails": {
+    "topicIds": [
+     "/m/019_rr",
+     "/m/032tl"
+    ],
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+     "https://en.wikipedia.org/wiki/Fashion"
+    ]
+   },
+   "status": {
+    "privacyStatus": "public",
+    "isLinked": true,
+    "longUploadsStatus": "longUploadsUnspecified"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Janni Deler",
+     "description": "Janni Delér, blogger from Stockholm, Sweden living in Monaco. Love to travel and see the world, also have a huge interest in fashion, training and food!",
+     "showRelatedChannels": true,
+     "profileColor": "#000000"
+    },
+    "image": {
+     "bannerImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletLowImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1138-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1707-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletHdImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w2276-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletExtraHdImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w2560-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileLowImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w320-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileMediumHdImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w960-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileHdImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1280-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileExtraHdImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1440-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTvImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvLowImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w854-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvMediumImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1280-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvHighImageUrl": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w1920-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no"
+    },
+    "hints": [
+     {
+      "property": "channel.featured_tab.template.string",
+      "value": "Everything"
+     },
+     {
+      "property": "channel.banner.mobile.medium.image.url",
+      "value": "https://yt3.ggpht.com/i7Qbr-VrGb65nfndDSQ6wxzBUHxZEiv_HaXspvY2igyT5u6vCEvgV4j_JlMfpxsv4d14aD0O=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no"
+     },
+     {
+      "property": "channel.modules.show_comments.bool",
+      "value": "True"
+     }
+    ]
+   }
+  }
+ ]
+}
