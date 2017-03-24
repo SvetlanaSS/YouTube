@@ -6,6 +6,7 @@ const youTubeUsers = [
     userName: "#janni-name",
     userDescription: "#janni-description",
     userPhoto: "#janni-photo",
+    userFollowers: "#janni-followers",
     alt: "Jannis photo"
   },
   {
@@ -13,6 +14,7 @@ const youTubeUsers = [
     userName: "#ida-name",
     userDescription: "#ida-description",
     userPhoto: "#ida-photo",
+    userFollowers: "#ida-followers",
     alt: "Idas photo"
   },
   {
@@ -20,6 +22,7 @@ const youTubeUsers = [
     userName: "#kenza-name",
     userDescription: "#kenza-description",
     userPhoto: "#kenza-photo",
+    userFollowers: "#kenza-followers",
     alt: "Kenzas photo"
   },
 ];
@@ -31,10 +34,11 @@ let ModuleGetUsersData = (function() {
       $(document).ready(function() {
         /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
         Link contains part, user id and key.*/
-        $.getJSON(`https://www.googleapis.com/youtube/v3/channels?part=snippet&id=${user.id}&key=${youTubeKey}`, function(response) {
+        $.getJSON(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${user.id}&key=${youTubeKey}`, function(response) {
           $.each(response.items, function(i, item) {
             $(user.userPhoto).append(`<img src=${item.snippet.thumbnails.medium.url} alt=${user.alt}>`);
             $(user.userName).append(item.snippet.title);
+            $(user.userFollowers).append(item.statistics.subscriberCount);
             $(user.userDescription).append(item.snippet.description);
           });
         });
@@ -57,7 +61,7 @@ ModuleGetUsersData.getYouTubeUsersData();
 And I would repeat the same functions three times. I made an array of users and minimized lines of code.
 
 $(document).ready(function() {
-  $.getJSON("https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UCdyTmTQTyGA2I7mMBODzqig&key=AIzaSyCWBQyLAECpQ6IUQF_uVHLXXUWEjnypYWg",
+  $.getJSON("https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCdyTmTQTyGA2I7mMBODzqig&key=AIzaSyCWBQyLAECpQ6IUQF_uVHLXXUWEjnypYWg",
     function(data) {
       $.each(data.items, function(i, item) {
         let userPhotoYouTubeJanni = item.snippet.thumbnails.medium.url;
@@ -67,6 +71,10 @@ $(document).ready(function() {
         let userNameYouTubeJanni = item.snippet.title;
         let userNameJanni = userNameYouTubeJanni;
         $("#janni-name").append(userNameJanni);
+
+        let userFollowersYouTube = item.statistics.subscriberCount;
+        let userFollowers = userFollowersYouTube;
+        $("#janni-followers").append(userFollowers);
 
         let userDescriptionYouTubeJanni = item.snippet.description;
         let userDescriptionJanni = userDescriptionYouTubeJanni;
