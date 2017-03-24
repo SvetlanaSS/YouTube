@@ -1,0 +1,108 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/jhWlQZeGRYWp2o20MbWUwG_7kfo\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/SwapoxsLZv3FT0egoj-bHE06KBg\"",
+   "id": "UCZJr-W6Z40wfVnritqnp9kQ",
+   "snippet": {
+    "title": "Ida Warg",
+    "description": "Hej mina hjärtan! Jag heter Ida Warg och är 29 år. På min kanal kommer ni hitta massa vloggar, Ida testar och videos om skönhet, träning hälsa och livet. Jag postar minst 4 videos i veckan och har ni önskemål är det bara att lämna en kommentar ♡\n\nFör samarbeten kontakta: idawarg@gmail.com\n\nNi hittar mig även på:\n♡ Instagram: idawarg\n♡ Snapchat: idawarg\n♡ Bloggen: http://idawarg.se\n♡ Podcast tillsammans med Viktor Frisk: Warg & Frisk",
+    "customUrl": "idawarg",
+    "publishedAt": "2011-10-09T15:15:27.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/-Z2WsylQId20/AAAAAAAAAAI/AAAAAAAAAAA/f5BUij7kpKg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/-Z2WsylQId20/AAAAAAAAAAI/AAAAAAAAAAA/f5BUij7kpKg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/-Z2WsylQId20/AAAAAAAAAAI/AAAAAAAAAAA/f5BUij7kpKg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     }
+    },
+    "localized": {
+     "title": "Ida Warg",
+     "description": "Hej mina hjärtan! Jag heter Ida Warg och är 29 år. På min kanal kommer ni hitta massa vloggar, Ida testar och videos om skönhet, träning hälsa och livet. Jag postar minst 4 videos i veckan och har ni önskemål är det bara att lämna en kommentar ♡\n\nFör samarbeten kontakta: idawarg@gmail.com\n\nNi hittar mig även på:\n♡ Instagram: idawarg\n♡ Snapchat: idawarg\n♡ Bloggen: http://idawarg.se\n♡ Podcast tillsammans med Viktor Frisk: Warg & Frisk"
+    },
+    "country": "SE"
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "favorites": "FLZJr-W6Z40wfVnritqnp9kQ",
+     "uploads": "UUZJr-W6Z40wfVnritqnp9kQ",
+     "watchHistory": "HL",
+     "watchLater": "WL"
+    }
+   },
+   "statistics": {
+    "viewCount": "21135953",
+    "commentCount": "0",
+    "subscriberCount": "144137",
+    "hiddenSubscriberCount": false,
+    "videoCount": "554"
+   },
+   "topicDetails": {
+    "topicIds": [
+     "/m/019_rr"
+    ],
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+    ]
+   },
+   "status": {
+    "privacyStatus": "public",
+    "isLinked": true,
+    "longUploadsStatus": "longUploadsUnspecified"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Ida Warg",
+     "description": "Hej mina hjärtan! Jag heter Ida Warg och är 29 år. På min kanal kommer ni hitta massa vloggar, Ida testar och videos om skönhet, träning hälsa och livet. Jag postar minst 4 videos i veckan och har ni önskemål är det bara att lämna en kommentar ♡\n\nFör samarbeten kontakta: idawarg@gmail.com\n\nNi hittar mig även på:\n♡ Instagram: idawarg\n♡ Snapchat: idawarg\n♡ Bloggen: http://idawarg.se\n♡ Podcast tillsammans med Viktor Frisk: Warg & Frisk",
+     "keywords": "vlogg hälsa vegan",
+     "defaultTab": "Featured",
+     "showRelatedChannels": true,
+     "showBrowseView": true,
+     "unsubscribedTrailer": "6fBLVZ74gks",
+     "profileColor": "#000000",
+     "country": "SE"
+    },
+    "image": {
+     "bannerImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletLowImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1138-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1707-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletHdImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w2276-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletExtraHdImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w2560-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileLowImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w320-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileMediumHdImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w960-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileHdImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1280-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileExtraHdImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1440-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTvImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvLowImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w854-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvMediumImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1280-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvHighImageUrl": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w1920-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no"
+    },
+    "hints": [
+     {
+      "property": "channel.banner.mobile.medium.image.url",
+      "value": "https://yt3.ggpht.com/y68c7_Q4ertHZ7-Gs9tZZtVSUIlSVhom9m9RJQKu9FgCW05-h3kV_UZYyYZsPco2y6tYFY-NpQ=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no"
+     },
+     {
+      "property": "channel.featured_tab.template.string",
+      "value": "Everything"
+     },
+     {
+      "property": "channel.modules.show_comments.bool",
+      "value": "True"
+     }
+    ]
+   }
+  }
+ ]
+}

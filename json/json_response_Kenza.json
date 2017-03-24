@@ -1,0 +1,108 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/Jc1Q1xt7LoIEOUBQm9rFilmks7Q\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/u4vvxMAzhUhyNFeCrvyQsD6ZwrM\"",
+   "id": "UCPcx204312AHrBxgPSpFLmQ",
+   "snippet": {
+    "title": "Kenza Zouiten",
+    "description": "Digital fashion entrepreneur from Stockholm. Scandinavia's most popular fashion blogger with 250 000 unique visitors a week and 1.6 million followers on Instagram. Co-founder of the digital fashion house Ivyrevel, supported by the H&M Group.",
+    "customUrl": "kenzazouiten",
+    "publishedAt": "2011-10-25T11:33:56.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/-QlPM7k67in8/AAAAAAAAAAI/AAAAAAAAAAA/85HIlh0Ousk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/-QlPM7k67in8/AAAAAAAAAAI/AAAAAAAAAAA/85HIlh0Ousk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/-QlPM7k67in8/AAAAAAAAAAI/AAAAAAAAAAA/85HIlh0Ousk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     }
+    },
+    "localized": {
+     "title": "Kenza Zouiten",
+     "description": "Digital fashion entrepreneur from Stockholm. Scandinavia's most popular fashion blogger with 250 000 unique visitors a week and 1.6 million followers on Instagram. Co-founder of the digital fashion house Ivyrevel, supported by the H&M Group."
+    },
+    "country": "SE"
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUPcx204312AHrBxgPSpFLmQ",
+     "watchHistory": "HL",
+     "watchLater": "WL"
+    }
+   },
+   "statistics": {
+    "viewCount": "4773293",
+    "commentCount": "0",
+    "subscriberCount": "123516",
+    "hiddenSubscriberCount": false,
+    "videoCount": "25"
+   },
+   "topicDetails": {
+    "topicIds": [
+     "/m/032tl",
+     "/m/019_rr",
+     "/m/032tl"
+    ],
+    "topicCategories": [
+     "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+     "https://en.wikipedia.org/wiki/Fashion"
+    ]
+   },
+   "status": {
+    "privacyStatus": "public",
+    "isLinked": true,
+    "longUploadsStatus": "longUploadsUnspecified"
+   },
+   "brandingSettings": {
+    "channel": {
+     "title": "Kenza Zouiten",
+     "description": "Digital fashion entrepreneur from Stockholm. Scandinavia's most popular fashion blogger with 250 000 unique visitors a week and 1.6 million followers on Instagram. Co-founder of the digital fashion house Ivyrevel, supported by the H&M Group.",
+     "defaultTab": "Featured",
+     "showBrowseView": true,
+     "unsubscribedTrailer": "1E55lr4HwpM",
+     "profileColor": "#000000",
+     "country": "SE"
+    },
+    "image": {
+     "bannerImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletLowImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1138-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1707-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletHdImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w2276-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTabletExtraHdImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w2560-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileLowImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w320-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileMediumHdImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w960-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileHdImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1280-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerMobileExtraHdImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1440-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no",
+     "bannerTvImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w2120-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvLowImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w854-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvMediumImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1280-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no",
+     "bannerTvHighImageUrl": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w1920-fcrop64=1,00000000ffffffff-nd-c0xffffffff-rj-k-no"
+    },
+    "hints": [
+     {
+      "property": "channel.banner.mobile.medium.image.url",
+      "value": "https://yt3.ggpht.com/IcloRr8r3owt6dtQUKLsG1O6JnN_MCEE6U2WIcyO0c7k6dZ-SsiyORRvOv9DQQRlz4qRAiIBxg=w640-fcrop64=1,32b75a57cd48a5a8-nd-c0xffffffff-rj-k-no"
+     },
+     {
+      "property": "channel.modules.show_comments.bool",
+      "value": "True"
+     },
+     {
+      "property": "channel.featured_tab.template.string",
+      "value": "Everything"
+     }
+    ]
+   }
+  }
+ ]
+}
