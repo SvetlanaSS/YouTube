@@ -1,3 +1,11 @@
 .my-link a {
   font-size: 2rem;
 }
+
+.margin-top {
+  margin-top: 70px;
+}
+
+.photo-center {
+  text-align: center;
+}

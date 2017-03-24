@@ -10,24 +10,18 @@ $(document).ready(function() {
     function(data) {
       $.each(data.items, function(i, item) {
         // build the DOM-document, photo for Janni
-        let userPhotoJanni = "<div>";
         let userPhotoYouTubeJanni = item.snippet.thumbnails.medium.url;
-        userPhotoJanni += "<div>"+userPhotoYouTubeJanni+"</div>"+"<iframe src='https://yt3.ggpht.com/-IC6K03zlONI/AAAAAAAAAAI/AAAAAAAAAAA/I89LtNXVCY4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg'></iframe>";
-        userPhotoJanni += "</div>";
+        let userPhotoJanni = "<img src=" + userPhotoYouTubeJanni + "alt='Jannis photo'>";
         $("#janni-photo").append(userPhotoJanni);
 
         // build the DOM-document, title for Janni
-        let userNameJanni = "<div>";
         let userNameYouTubeJanni = item.snippet.title;
-        userNameJanni += "<h3>"+userNameYouTubeJanni+"</h3>";
-        userNameJanni += "</div>";
+        let userNameJanni = userNameYouTubeJanni;
         $("#janni-name").append(userNameJanni);
 
         // build the DOM-document, description for Janni
-        let userDescriptionJanni = "<div>";
         let userDescriptionYouTubeJanni = item.snippet.description;
-        userDescriptionJanni += "<p>"+userDescriptionYouTubeJanni+"</p>";
-        userDescriptionJanni += "</div>";
+        let userDescriptionJanni = userDescriptionYouTubeJanni;
         $("#janni-description").append(userDescriptionJanni);
       });
   });
