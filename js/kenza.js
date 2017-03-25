@@ -20,9 +20,15 @@ let ModuleLatestVideos = (function() {
     $(document).ready(function() {
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
       Link contains part, channel id and key.*/
-      $.getJSON(``, function(response) {
+      $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdKenza}&type=video&key=${youTubeKey}`, function(response) {
         $.each(response.items, function(i, item) {
-
+          let html = `
+          <div class="center">
+            <p>${item.snippet.title}</p>
+            <iframe class="embed-responsive-item" src='http://www.youtube.com/embed/${item.id.videoId}'></iframe>
+          </div>
+          `
+          $("#html-video").append(html);
         });
       });
     });
