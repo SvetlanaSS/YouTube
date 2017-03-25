@@ -1,0 +1,236 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/dStWuUCpaLT0qYEzzVmI9A2X3E8\"",
+ "nextPageToken": "CAUQAA",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/kA_eYDwU69H4B2Z9LpKaaKtomQo\"",
+   "id": "UExTMk5zVWkwYzYyVmZHYk5lNE91cUp5ME1zLVc4TjdBNC41NkI0NEY2RDEwNTU3Q0M2",
+   "snippet": {
+    "publishedAt": "2015-03-29T11:50:26.000Z",
+    "channelId": "UCdyTmTQTyGA2I7mMBODzqig",
+    "title": "Janni Delér hair tutorial - Surf Look by TRESemmé",
+    "description": "Se hur Janni Delér blir stylad av Marre Hitti, lead stylist för TRESemmé Sverige. \nDenna style heter Surf look.\n\n\nSå här gör du:\n1. Tvätta håret med shampoo och balsam från Perfectly (un)done\n2. Använd Sea Salt spray i håret\n3. Föna håret\n4. Locka håret med en smal locktång\n5. Borsta ur håret",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/e7i4rvcxnhc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/e7i4rvcxnhc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/e7i4rvcxnhc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/e7i4rvcxnhc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/e7i4rvcxnhc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Janni Deler",
+    "playlistId": "PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "e7i4rvcxnhc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/3Saszq6Q8J5elbakPBH5FLGy_H8\"",
+   "id": "UExTMk5zVWkwYzYyVmZHYk5lNE91cUp5ME1zLVc4TjdBNC4yODlGNEE0NkRGMEEzMEQy",
+   "snippet": {
+    "publishedAt": "2015-03-29T11:50:37.000Z",
+    "channelId": "UCdyTmTQTyGA2I7mMBODzqig",
+    "title": "Caroline Roxy hair tutorial - Rockiga Lockar by TRESemmé",
+    "description": "Se hur Caroline Roxy blir stylad av Marre Hitti, lead stylist för TRESemmé Sverige. \nDenna style heter Rockiga lockar.\n\n\nSå här gör du:\n1. Tvätta håret med shampoo och balsam från Perfectly (un)done\n2. Använd Sea Foam i botten av håret och Sea Salt Spray i topparna\n3. Föna håret\n4. Locka håret med en smal locktång\n5. Separera lockarna med fingrarna\n6. Fläta en fiskbensfläta och fäst i nacken",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/-HQrAU8HX5Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/-HQrAU8HX5Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/-HQrAU8HX5Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/-HQrAU8HX5Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/-HQrAU8HX5Y/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Janni Deler",
+    "playlistId": "PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "-HQrAU8HX5Y"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/W10UF8dQU3hbTkVcaZbQG58ebro\"",
+   "id": "UExTMk5zVWkwYzYyVmZHYk5lNE91cUp5ME1zLVc4TjdBNC4wMTcyMDhGQUE4NTIzM0Y5",
+   "snippet": {
+    "publishedAt": "2015-03-29T11:50:50.000Z",
+    "channelId": "UCdyTmTQTyGA2I7mMBODzqig",
+    "title": "Fanny Lyckman hair tutorial - Bohemiska lockar by TRESemmé",
+    "description": "Se hur Fanny Lyckman blir stylad av Marre Hitti, lead stylist för TRESemmé Sverige. \nDenna style heter Bohemiska lockar.\n\n\nSå här gör du:\n1. Tvätta håret med shampoo och balsam från Perfectly (un)done\n2. Lägg i Sea Foam i botten av håret och Sea Salt Spray i topparna\n3. Föna håret\n4. Gör två vattenfallsflätor som du fäster i nacken\n5. Locka håret med en kontång\n6. Kamma ur lockarna med fingrarna",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4yCZ3MEaVzg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4yCZ3MEaVzg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4yCZ3MEaVzg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/4yCZ3MEaVzg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/4yCZ3MEaVzg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Janni Deler",
+    "playlistId": "PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "4yCZ3MEaVzg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/T7mz3ZMDRUvWP3RlJOjVrJGabSA\"",
+   "id": "UExTMk5zVWkwYzYyVmZHYk5lNE91cUp5ME1zLVc4TjdBNC41MjE1MkI0OTQ2QzJGNzNG",
+   "snippet": {
+    "publishedAt": "2015-03-29T11:51:00.000Z",
+    "channelId": "UCdyTmTQTyGA2I7mMBODzqig",
+    "title": "Lisa Olsson hair tutorial - Retro Hollywood Lockar by TRESemmé",
+    "description": "Se hur Lisa Olsson blir stylad av Marre Hitti, lead stylist för TRESemmé Sverige. \nDenna style heter Retro Hollywook lockar.\n\n\nSå här gör du:\n1. Tvätta håret med shampoo och balsam från Perfectly (un)done\n2. Ha i Sea Foam i håret\n3. Föna håret\n4. Locka håret med locktång och sätt upp i clips\n5. Låt håret svalna och släpp sedan ut det\n6. Borsta ur håret",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/FIk_k8HILWY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/FIk_k8HILWY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/FIk_k8HILWY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/FIk_k8HILWY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/FIk_k8HILWY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Janni Deler",
+    "playlistId": "PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4",
+    "position": 3,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "FIk_k8HILWY"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/v5HwoIRz9J3fLCnEJVGmlxks7sc\"",
+   "id": "UExTMk5zVWkwYzYyVmZHYk5lNE91cUp5ME1zLVc4TjdBNC4wOTA3OTZBNzVEMTUzOTMy",
+   "snippet": {
+    "publishedAt": "2015-03-29T11:51:10.000Z",
+    "channelId": "UCdyTmTQTyGA2I7mMBODzqig",
+    "title": "Johanna Olsson hair tutorial - Hollywood Lockar by TRESemmé",
+    "description": "Se hur Johanna Olsson blir stylad av Marre Hitti, lead stylist för TRESemmé Sverige. \nDenna style heter Hollywood lockar.\n\n\n\nSå här gör du:\n1. Tvätta håret med shampoo och balsam från perfectly (un)done\n2. Ha i Sea Foam i håret\n3. Föna håret med en rundborste\n4. Sätt upp lockarna i clips\n5. Låt håret svalna och släpp ut\n6. Borsta ur håret",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0-A_gHq7UvY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0-A_gHq7UvY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0-A_gHq7UvY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/0-A_gHq7UvY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/0-A_gHq7UvY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Janni Deler",
+    "playlistId": "PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4",
+    "position": 4,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0-A_gHq7UvY"
+    }
+   }
+  }
+ ]
+}
