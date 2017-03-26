@@ -19,8 +19,8 @@ let ModuleLatestVideos = (function() {
     // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
     $(document).ready(function() {
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
-      Link contains part, channel id and key.*/
-      $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdIda}&type=video&key=${youTubeKey}`, function(response) {
+      Link contains part, channel id, order (sort by date), type (video) and key.*/
+      $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdIda}&order=date&type=video&key=${youTubeKey}`, function(response) {
         $.each(response.items, function(i, item) {
           let html = `
           <div class="center">
