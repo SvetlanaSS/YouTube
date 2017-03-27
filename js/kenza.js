@@ -30,12 +30,44 @@ let ModuleLatestVideos = (function() {
           `
           $("#html-video").append(html);
         });
+        _createLoadMoreButton(response.nextPageToken);
       });
     });
   };
 
+  /* A function for loading next videos. Use value nextPagetoken than I get from API. The value nextPageToken must be taken from
+  the response from the api and send to the api to load a new portion of the videos. */
+  let getNextVideos = (nextPageToken) => {
+    // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
+    $(document).ready(function() {
+      /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
+      Link contains part, channel id, order (sort by date), page token, type (video) and key.*/
+      $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdKenza}&order=date&pageToken=${nextPageToken}&type=video&key=${youTubeKey}`, function(response) {
+        $.each(response.items, function(i, item) {
+          let html = `
+          <div class="center">
+            <p>${item.snippet.title}</p>
+            <iframe class="embed-responsive-item" src='http://www.youtube.com/embed/${item.id.videoId}'></iframe>
+          </div>
+          `
+          $("#html-video").append(html);
+        });
+        _createLoadMoreButton(response.nextPageToken);
+      });
+    });
+  };
+
+  /* A privat function to create Load more button, because the button should be configured each time with the loading of the video.
+  The value nextPageToken must be taken from the response from the api and send to the api to load a new portion of the videos. */
+  let _createLoadMoreButton = (nextPageToken) => {
+    let nextVideosHtml = `<button class="my-pagination" onclick="ModuleLatestVideos.getNextVideos(\'${nextPageToken}\')">Load more</button>`
+    // replace html with button
+    $("#next-page").html(nextVideosHtml);
+  };
+
   return {
     getTheLatestVideos:getTheLatestVideos,
+    getNextVideos: getNextVideos
   }
 })();
 
@@ -64,7 +96,6 @@ let ModulePlaylists = (function() {
     });
   };
 
-
   return {
     getPlaylists:getPlaylists,
   }
@@ -84,6 +115,7 @@ let ModuleUserDescussion = (function() {
         Link contains part, channel id and key.*/
         $.getJSON(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&channelId=${channelIdKenza}&key=${youTubeKey}`, function(response) {
           $.each(response.items, function(i, item) {
+            // form each comment separately (one comment contains author image, author name and author comment)
             let html = `
             <div class="media">
               <div class="media-left">

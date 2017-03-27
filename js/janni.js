@@ -35,12 +35,13 @@ let ModuleLatestVideos = (function() {
     });
   };
 
-  // A function for loading next videos. Use value nextPagetoken than I get from API
+  /* A function for loading next videos. Use value nextPagetoken than I get from API. The value nextPageToken must be taken from
+  the response from the api and send to the api to load a new portion of the videos. */
   let getNextVideos = (nextPageToken) => {
     // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
     $(document).ready(function() {
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
-      Link contains part, channel id, order (sort by date), type (video) and key.*/
+      Link contains part, channel id, order (sort by date), page token, type (video) and key.*/
       $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdJanni}&order=date&pageToken=${nextPageToken}&type=video&key=${youTubeKey}`, function(response) {
         $.each(response.items, function(i, item) {
           let html = `
@@ -56,7 +57,8 @@ let ModuleLatestVideos = (function() {
     });
   };
 
-  // A privat function to create Load more button
+  /* A privat function to create Load more button, because the button should be configured each time with the loading of the video.
+  The value nextPageToken must be taken from the response from the api and send to the api to load a new portion of the videos. */
   let _createLoadMoreButton = (nextPageToken) => {
     let nextVideosHtml = `<button class="my-pagination" onclick="ModuleLatestVideos.getNextVideos(\'${nextPageToken}\')">Load more</button>`
     // replace html with button
@@ -94,7 +96,6 @@ let ModulePlaylists = (function() {
     });
   };
 
-
   return {
     getPlaylists:getPlaylists,
   }
@@ -114,6 +115,7 @@ let ModuleUserDescussion = (function() {
         Link contains part, channel id and key.*/
         $.getJSON(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&channelId=${channelIdJanni}&key=${youTubeKey}`, function(response) {
           $.each(response.items, function(i, item) {
+            // form each comment separately (one comment contains author image, author name and author comment)
             let html = `
             <div class="media">
               <div class="media-left">
