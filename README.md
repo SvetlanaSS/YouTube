@@ -1,17 +1,21 @@
 # YouTube
 
 
+
 ### Svetlana Slyusareva, FEND16, kurs Javascript 2
+
 
 
 #### Länk till projektet live
 Länk till projektet live [här](http://svetlanawebdeveloper.se)
 
 
+
 #### Kort beskrivning av applikationen, dess syfte och funktionalitet
 Applikationen fungerar som en koppling av de tre riktiga Youtube-kanaler av de svenska blogger - Janni Deler, Ida Warg och Kenza Zouiten.
 I applikationen finns det information om deras foto, followers, profile-beskrivningar, en lista över de senaste videon, en lista över playlists,
 och kommentarer till deras kanaler. Man kan ladda ner mer videon besökarens begäran.
+
 
 
 #### Punktlista med vilka teknologier jag använt
@@ -25,13 +29,15 @@ och kommentarer till deras kanaler. Man kan ladda ner mer videon besökarens beg
 * Atom som textredigerare
 
 
+
 #### Kort beskrivning av det API/APIer jag använt samt länk till dem
 API som använts i projektet är https://developers.google.com/youtube/v3/docs/. Det är YouTubes data-API.
 Med YouTubes data-API kunde jag lägga till en mängd olika YouTube-funktioner till min app, såsom:
-* https://www.googleapis.com/youtube/v3/channels - information om en blogger och hennes YouTube-kanal,
-* https://www.googleapis.com/youtube/v3/commentThreads - information om en YouTube kommentar tråd, som består av en kommentar och svar, om det finns några, till den kommentaren,
-* https://www.googleapis.com/youtube/v3/playlistItems - information om en video, som ingår i en spellista,
-* https://www.googleapis.com/youtube/v3/search - hät sökte jag information om YouTube-videos.
+* från channels - information om en blogger och hennes YouTube-kanal,
+* från commentThreads - information om en YouTube kommentar tråd, som består av en kommentar och svar, om det finns några, till den kommentaren,
+* från playlistItems - information om en video, som ingår i en spellista,
+* från search - här sökte jag information om YouTube-videos.
+
 
 
 #### Kortfattat om min arbetsprocess och vad som skulle kodmässigt kunna förbättras.
