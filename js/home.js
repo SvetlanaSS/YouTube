@@ -28,6 +28,16 @@ const youTubeUsers = [
   },
 ];
 
+
+
+// A function for handling errors that is available for all modules and is called in them
+let handleError = () => {
+  $("#myModal").modal("show");
+};
+
+
+
+// A module to show information about users
 let ModuleGetUsersData = (function() {
   let getYouTubeUsersData = () => {
     youTubeUsers.map((user) => {
@@ -35,14 +45,18 @@ let ModuleGetUsersData = (function() {
       $(document).ready(function() {
         /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
         Link contains part, user id and key.*/
-        $.getJSON(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${user.id}&key=${youTubeKey}`, function(response) {
-          $.each(response.items, function(i, item) {
-            $(user.userPhoto).append(`<img src=${item.snippet.thumbnails.medium.url} alt=${user.alt}>`);
-            $(user.userName).append(item.snippet.title);
-            $(user.userFollowers).append(item.statistics.subscriberCount);
-            $(user.userDescription).append(item.snippet.description);
+        $.getJSON(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${user.id}&key=${youTubeKey}`)
+          .done((response) => {
+            $.each(response.items, function(i, item) {
+              $(user.userPhoto).append(`<img src=${item.snippet.thumbnails.medium.url} alt=${user.alt}>`);
+              $(user.userName).append(item.snippet.title);
+              $(user.userFollowers).append(item.statistics.subscriberCount);
+              $(user.userDescription).append(item.snippet.description);
+            });
+          })
+          .fail(() => {
+            handleError();
           });
-        });
       });
     });
   };
@@ -53,8 +67,6 @@ let ModuleGetUsersData = (function() {
 })();
 
 ModuleGetUsersData.getYouTubeUsersData();
-
-
 
 
 
