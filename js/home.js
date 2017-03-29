@@ -43,10 +43,14 @@ let ModuleGetUsersData = (function() {
     youTubeUsers.map((user) => {
       // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
       $(document).ready(function() {
+        // progress bar
+        $.LoadingOverlay("show");
         /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
         Link contains part, user id and key.*/
         $.getJSON(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${user.id}&key=${youTubeKey}`)
           .done((response) => {
+            // progress bar
+            $.LoadingOverlay("hide");
             $.each(response.items, function(i, item) {
               $(user.userPhoto).append(`<img src=${item.snippet.thumbnails.medium.url} alt=${user.alt}>`);
               $(user.userName).append(item.snippet.title);
@@ -55,6 +59,7 @@ let ModuleGetUsersData = (function() {
             });
           })
           .fail(() => {
+            $.LoadingOverlay("hide");
             handleError();
           });
       });

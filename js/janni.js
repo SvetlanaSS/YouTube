@@ -25,10 +25,14 @@ let ModuleLatestVideos = (function() {
   let getTheLatestVideos = () => {
     // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
     $(document).ready(() => {
+      // progress bar
+      $.LoadingOverlay("show");
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
       Link contains part, channel id, order (sort by date), type (video) and key.*/
       $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdJanni}&order=date&type=video&key=${youTubeKey}`)
         .done((response) => {
+          // progress bar
+          $.LoadingOverlay("hide");
           $.each(response.items, function(i, item) {
             let html = `
             <div class="center">
@@ -51,10 +55,14 @@ let ModuleLatestVideos = (function() {
   let getNextVideos = (nextPageToken) => {
     // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
     $(document).ready(function() {
+      // progress bar
+      $.LoadingOverlay("show");
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
       Link contains part, channel id, order (sort by date), page token, type (video) and key.*/
       $.getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelIdJanni}&order=date&pageToken=${nextPageToken}&type=video&key=${youTubeKey}`)
         .done((response) => {
+          // progress bar
+          $.LoadingOverlay("hide");
           $.each(response.items, function(i, item) {
             let html = `
             <div class="center">
@@ -95,10 +103,14 @@ let ModulePlaylists = (function() {
   let getPlaylists = () => {
     // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
     $(document).ready(function() {
+      // progress bar
+      $.LoadingOverlay("show");
       /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
       Link contains part, play list id (got from playlists) and key.*/
       $.getJSON(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLS2NsUi0c62VfGbNe4OuqJy0Ms-W8N7A4&key=${youTubeKey}`)
         .done((response) => {
+          // progress bar
+          $.LoadingOverlay("hide");
           $.each(response.items, function(i, item) {
             let html = `
             <div class="center">
@@ -130,10 +142,14 @@ let ModuleUserDescussion = (function() {
     youTubeComments.map(() => {
       // Code included inside $(document).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
       $(document).ready(function() {
+        // progress bar
+        $.LoadingOverlay("show");
         /* getJSON - jQuery-function than load JSON-encoded data from the server using a GET HTTP request.
         Link contains part, channel id and key.*/
         $.getJSON(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&channelId=${channelIdJanni}&key=${youTubeKey}`)
           .done((response) => {
+            // progress bar
+            $.LoadingOverlay("hide");
             $.each(response.items, function(i, item) {
               // form each comment separately (one comment contains author image, author name and author comment)
               let html = `
